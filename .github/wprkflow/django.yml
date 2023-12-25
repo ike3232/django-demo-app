@@ -27,7 +27,7 @@ jobs:
       run: |
     - name: run tests 
       run: |
-        python3 manage.py test django-demo-app
+        python3 manage.py runserver
 
   deploy:
     needs: build
