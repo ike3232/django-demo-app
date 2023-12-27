@@ -27,7 +27,7 @@ jobs:
       run: |
     - name: run tests 
       run: |
-        python3 manage.py runserver
+        python3 manage.py tests
 
   deploy:
     needs: build
