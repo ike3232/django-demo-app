@@ -1,6 +1,6 @@
-import chess
+import flask
 
-board = chess.Board()
+board = flask.Board()
 
 for i in board.legal_moves:
 	print(i)
