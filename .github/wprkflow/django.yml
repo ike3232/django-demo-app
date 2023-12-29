@@ -44,7 +44,7 @@ jobs:
 
 
           script: |
-            cd /home/ike/django-demon-app
+            cd /home/azureuser/django-demon-app
 
             git pull origin main 
 
